@@ -1,6 +1,5 @@
 module.exports = {
     env: {
-        commonjs: true,
         es6: true,
         node: true,
     },
@@ -16,8 +15,8 @@ module.exports = {
     },
     rules: {
         "prettier/prettier": "error",
-        "class-methods-use_this": "off",
-        "no-param-reassign": "off",
+        "class-methods-use_this": 0,
+        "no-param-reassign": 0,
         "camelcase": "off",
         "no-unused-vars": ["error", { "argsIgnorePattern": "next" }],
         "linebreak-style": 0,
